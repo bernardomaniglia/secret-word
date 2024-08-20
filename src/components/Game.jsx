@@ -16,7 +16,7 @@ const Game = ({
 
   const hadleSubmit = (e) => {
     e.preventDefault();
-
+    
     verifyLetter(letter);
     setLetter("");
     letterInputRef.current.focus();
